@@ -1,0 +1,15 @@
+{
+  "name": "sibyl-feedback",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Plain-text customer feedback tied to the exact support answer.",
+  "exports": "./src/feedback.mjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "MIT"
+}
